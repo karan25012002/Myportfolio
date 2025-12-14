@@ -1,0 +1,63 @@
+/* Global Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  @apply bg-light dark:bg-primary text-slate-900 dark:text-slate-100 transition-colors duration-300;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-200 dark:bg-slate-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-accent rounded-full hover:bg-blue-600 transition-colors;
+}
+
+/* Smooth transitions */
+a, button, input, textarea {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Focus Styles */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  @apply outline-none ring-2 ring-accent ring-offset-2 dark:ring-offset-primary;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+}
+
+.card-hover {
+  @apply transform transition-all duration-300 hover:scale-105 hover:shadow-xl;
+}
+
+.button-primary {
+  @apply px-6 py-3 bg-accent text-white rounded-lg font-semibold hover:bg-blue-600 active:scale-95 transition-all;
+}
+
+.button-secondary {
+  @apply px-6 py-3 border-2 border-accent text-accent dark:text-blue-400 rounded-lg font-semibold hover:bg-accent hover:text-white dark:hover:text-white transition-all;
+}
