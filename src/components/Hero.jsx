@@ -126,7 +126,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl opacity-20 blur-xl"></div>
               <div className="relative w-full h-full bg-gradient-to-r from-slate-300 to-slate-400 dark:from-slate-700 dark:to-slate-800 rounded-2xl overflow-hidden border-2 border-slate-400 dark:border-slate-600">
                 <img 
-                  src="/images/aryan.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/aryan.jpg`}
                   alt="Profile" 
                   className="w-full h-full object-cover"
                 />
