@@ -3,9 +3,7 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "devCommand": "npm run dev",
-  "env": {
-    "VITE_APP_TITLE": "@vite_app_title"
-  },
+
   "headers": [
     {
       "source": "/public/(.*)",
