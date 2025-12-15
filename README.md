@@ -260,3 +260,8 @@ For questions or issues, feel free to:
 ---
 
 **Built with ❤️ by Harendra Kumar**
+
+## Deployment
+This project is configured for deployment on:
+- **GitHub Pages**: served at `/Myportfolio/`
+- **Vercel**: served at `/`
