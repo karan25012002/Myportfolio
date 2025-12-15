@@ -5,10 +5,7 @@ yarn.lock
 pnpm-lock.yaml
 
 # Production build
-dist/
-.dist/
-build/
-
+dist
 # Environment variables
 
 .env.local

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Modern Portfolio Website - Computer Science Student at Vignan University",
   "private": true,
+  "homepage": "https://karan25012002.github.io/Myportfolio/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "framer-motion": "^10.16.16",

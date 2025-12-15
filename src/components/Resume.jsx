@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FiDownload } from 'react-icons/fi';
 
 const Resume = () => {
-  const [pdfUrl] = useState('/resume.pdf');
+  const [pdfUrl] = useState(import.meta.env.BASE_URL + 'resume.pdf');
 
   const containerVariants = {
     hidden: { opacity: 0 },
